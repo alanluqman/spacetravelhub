@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+.navigation-holder {
+  border-bottom: 1px solid gainsboro;
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+}
+
+.logo {
+  width: 50px;
+}
+
+.nav-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  padding: 5px 15px;
+  text-decoration: none;
+}
+
+.my-profile {
+  border-left: 1px solid gainsboro;
+}
