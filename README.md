@@ -30,7 +30,7 @@ To get a local copy of this calculator, Please follow these simple example steps
 👤 **Esi Ogagaoghene**
 - GitHub: [@ogagaoghene](https://github.com/ogagaoghene)
 - LinkedIn: [Ogagaoghene Esi](https://www.linkedin.com/in/ogagaoghene-esi)
-- Twitter: [@esi_ogaga] (https://twitter.com/esi_ogaga)
+- Twitter: [@esi_ogaga](https://twitter.com/esi_ogaga)
 
 ## 🤝 Contributing
 
