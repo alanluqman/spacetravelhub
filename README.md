@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Spase Travel Hub
+# Space Travel Hub
 
-> This is a React-redux group project, that provides user to reserve a spaceX rocket and travel.
-
+> A Web Appplication written with React and Redux which allows users to book rockets and join selected space missions.
 
 ## Built With
 
@@ -21,19 +20,18 @@ To get a local copy of this calculator, Please follow these simple example steps
 6. Open terminal and run this command `npm install`
 7. after finishing step 5, run this command `npm start` to run the project
 
-
 ## Authors
 
 👤 **Alan Luqman**
 
 - GitHub: [@alanluqman](https://github.com/alanluqman)
 - LinkedIn: [Alan Luqman](https://linkedin.com/in/alan-luqman-61623b17a)
+- Twitter: [@esi_ogaga] https://twitter.com/esi_ogaga
 
 👤 **Esi Ogagaoghene**
 
 - GitHub: [@ogagaoghene](https://github.com/ogagaoghene)
-- LinkedIn: [Ogagaoghene Esi ](https://www.linkedin.com/in/ogagaoghene-esi-7a478647/)
-
+- LinkedIn: [Ogagaoghene Esi](https://www.linkedin.com/in/ogagaoghene-esi)
 
 ## 🤝 Contributing
 
