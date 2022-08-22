@@ -23,15 +23,14 @@ To get a local copy of this calculator, Please follow these simple example steps
 ## Authors
 
 👤 **Alan Luqman**
-
 - GitHub: [@alanluqman](https://github.com/alanluqman)
 - LinkedIn: [Alan Luqman](https://linkedin.com/in/alan-luqman-61623b17a)
-- Twitter: [@esi_ogaga] https://twitter.com/esi_ogaga
+
 
 👤 **Esi Ogagaoghene**
-
 - GitHub: [@ogagaoghene](https://github.com/ogagaoghene)
 - LinkedIn: [Ogagaoghene Esi](https://www.linkedin.com/in/ogagaoghene-esi)
+- Twitter: [@esi_ogaga] (https://twitter.com/esi_ogaga)
 
 ## 🤝 Contributing
 
