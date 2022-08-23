@@ -10,7 +10,7 @@ export default function Navigation() {
     });
   };
   return (
-    <div className="navigation-holder">
+    <header className="navigation-holder">
       <div className="nav-container">
         <Link className="nav-links" to="/">
           <div className="logo-holder">
@@ -24,6 +24,6 @@ export default function Navigation() {
           <NavLink className="nav-links my-profile" style={activeStyle} to="/myprofile">My Profile</NavLink>
         </div>
       </div>
-    </div>
+    </header>
   );
 }
