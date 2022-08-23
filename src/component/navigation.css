@@ -6,7 +6,7 @@
 
 body {
   width: 100%;
-  overflow-x: hidden;;
+  overflow-x: hidden;
 }
 
 .navigation-holder {
@@ -22,22 +22,31 @@ body {
 }
 
 .nav-links {
-  padding: 5px 15px;
+  padding: 0 15px;
   text-decoration: none;
+  color: rgb(20, 129, 255);
 }
 
 .logo-holder {
-  display:flex;
+  display: flex;
   align-items: center;
   gap: 10px;
-  padding: 0;
+  padding: 5px;
+  color: rgb(77, 77, 77);
+  font-family: 'Lucida Sans', sans-serif;
 }
 
 .logo {
   width: 50px;
 }
 
-
 .my-profile {
   border-left: 1px solid gainsboro;
+}
+
+@media screen and (min-width: 500px) {
+  .nav-container {
+    max-width: 1000px;
+    margin: auto;
+  }
 }

@@ -1,8 +1,14 @@
-import { Link } from 'react-router-dom';
+/* eslint-disable arrow-body-style */
+import { Link, NavLink } from 'react-router-dom';
 import './navigation.css';
 import logo from './logo.png';
 
 export default function Navigation() {
+  const activeStyle = ({ isActive }) => {
+    return ({
+      textDecoration: isActive ? 'underline' : 'none',
+    });
+  };
   return (
     <div className="navigation-holder">
       <div className="nav-container">
@@ -13,9 +19,9 @@ export default function Navigation() {
           </div>
         </Link>
         <div>
-          <Link className="nav-links" to="/">Rockets</Link>
-          <Link className="nav-links" to="/missions">Missions</Link>
-          <Link className="nav-links my-profile" to="/myprofile">My Profile</Link>
+          <NavLink className="nav-links" style={activeStyle} to="/">Rockets</NavLink>
+          <NavLink className="nav-links" style={activeStyle} to="/missions">Missions</NavLink>
+          <NavLink className="nav-links my-profile" style={activeStyle} to="/myprofile">My Profile</NavLink>
         </div>
       </div>
     </div>
