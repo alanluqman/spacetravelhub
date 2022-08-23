@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Navigation from './component/Header';
+import Rockets from './pages/Rockets';
 
 function App() {
   return (
@@ -8,9 +9,7 @@ function App() {
       <BrowserRouter>
         <Navigation />
         <Routes>
-          <Route />
-          <Route />
-          <Route />
+          <Route index element={<Rockets />} />
         </Routes>
       </BrowserRouter>
     </>
