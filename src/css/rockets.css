@@ -4,3 +4,8 @@
   margin: 3rem;
   gap: 1rem;
 }
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
