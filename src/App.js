@@ -4,6 +4,7 @@ import './App.css';
 import Navigation from './component/Header';
 import Missions from './pages/Missions';
 import store from './redux/configureStore';
+import Rockets from './pages/Rockets';
 
 function App() {
   return (
@@ -18,6 +19,12 @@ function App() {
           </Routes>
         </BrowserRouter>
       </Provider>
+      <BrowserRouter>
+        <Navigation />
+        <Routes>
+          <Route index element={<Rockets />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
