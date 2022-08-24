@@ -20,6 +20,29 @@ table {
   margin-top: 15px;
 }
 
+.rocket-container {
+  width: 50%;
+}
+
+.rocket-list {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.rocket-container h2 {
+  margin-left: 2rem;
+}
+
+.rocket-container li {
+  list-style: none;
+  border: gray 1px solid;
+  padding: 1rem 4rem;
+  width: 100%;
+}
+
 @media screen and (min-width: 500px) {
   .container {
     flex-direction: row;
