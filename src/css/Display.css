@@ -1,0 +1,27 @@
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.display-section {
+  width: 100%;
+}
+
+table,
+tr {
+  width: 100%;
+}
+
+table {
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    flex-direction: row;
+  }
+}

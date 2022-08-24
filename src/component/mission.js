@@ -4,7 +4,7 @@
 /* eslint-disable camelcase */
 import { useDispatch, useSelector } from 'react-redux';
 import { joinOrLeaveMissions } from '../redux/missions';
-import './mission.css';
+import '../css/mission.css';
 
 export default function Mission({
   id, name, description, reserved,
