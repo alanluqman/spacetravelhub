@@ -1,6 +1,6 @@
 /* eslint-disable arrow-body-style */
 import { Link, NavLink } from 'react-router-dom';
-import './navigation.css';
+import '../css/navigation.css';
 import logo from './logo.png';
 
 export default function Navigation() {

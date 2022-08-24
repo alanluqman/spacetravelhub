@@ -4,7 +4,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { fetchMissions } from '../redux/missions';
 import Mission from '../component/mission';
-import './Missions.css';
+import '../css/Missions.css';
 
 export default function Missions() {
   const missionList = useSelector((state) => state.mission);
