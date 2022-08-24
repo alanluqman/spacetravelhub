@@ -13,18 +13,12 @@ function App() {
         <BrowserRouter>
           <Navigation />
           <Routes>
-            <Route />
+            <Route index element={<Rockets />} />
             <Route path="/missions" element={<Missions />} />
             <Route />
           </Routes>
         </BrowserRouter>
       </Provider>
-      <BrowserRouter>
-        <Navigation />
-        <Routes>
-          <Route index element={<Rockets />} />
-        </Routes>
-      </BrowserRouter>
     </>
   );
 }
