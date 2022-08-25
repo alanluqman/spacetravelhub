@@ -11,35 +11,19 @@
   width: 100%;
 }
 
-table,
-tr {
-  width: 100%;
-}
-
-table {
-  margin-top: 15px;
-}
-
-.rocket-container {
-  width: 50%;
-}
-
-.rocket-list {
+.display-section ul {
   padding: 0;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
-.rocket-container h2 {
-  margin-left: 2rem;
-}
-
-.rocket-container li {
+.display-section li {
   list-style: none;
   border: gray 1px solid;
-  padding: 1rem 4rem;
+  padding: 1rem 1rem;
   width: 100%;
 }
 
