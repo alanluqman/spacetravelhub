@@ -53,16 +53,6 @@ describe('Rockets page component', () => {
     expect(button.length).toBe(4);
   });
 
-  it('Should contain my rockets reservations', async () => {
-    const { unmount } = render(<Provider store={store}><Rockets /></Provider>);
-    const reserveButton = await screen.findAllByText('Reserve Rocket');
-    fireEvent.click(reserveButton[0]);
-    unmount();
-
-    // render(<Provider store={store}><MyProfile /></Provider>);
-    // expect(screen.queryByText('Falcon 1')).not.toBeNull();
-  });
-
   it('Should match the snapshot', async () => {
     const dom = render(<Provider store={store}><Rockets /></Provider>);
     await act(() => expect(dom).toMatchSnapshot());
