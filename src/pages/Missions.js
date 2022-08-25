@@ -4,25 +4,27 @@ import { useDispatch, useSelector } from 'react-redux';
 import axios from 'axios';
 import { fetchMissions } from '../redux/missions';
 import Mission from '../component/mission';
-import './Missions.css';
+import '../css/Missions.css';
 
 export default function Missions() {
   const missionList = useSelector((state) => state.mission);
   const dispatch = useDispatch();
   const api = 'https://api.spacexdata.com/v3/missions';
   useEffect(() => async () => {
-    const data = await axios.get(api).then((response) => response.data);
-    // eslint-disable-next-line prefer-const
-    let newList = [];
-    data.forEach((element) => {
-      newList.push({
-        mission_id: element.mission_id,
-        mission_name: element.mission_name,
-        description: element.description,
-        reserved: false,
+    if (missionList.length === 0) {
+      const data = await axios.get(api).then((response) => response.data);
+      // eslint-disable-next-line prefer-const
+      let newList = [];
+      data.forEach((element) => {
+        newList.push({
+          mission_id: element.mission_id,
+          mission_name: element.mission_name,
+          description: element.description,
+          reserved: false,
+        });
       });
-    });
-    dispatch(fetchMissions(newList));
+      dispatch(fetchMissions(newList));
+    }
   }, []);
   return (
     <div className="container">
