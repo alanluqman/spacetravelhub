@@ -19,6 +19,7 @@ To get a local copy of this calculator, Please follow these simple example steps
 5. Run this command `code .` to open this folder in VScode
 6. Open terminal and run this command `npm install`
 7. after finishing step 5, run this command `npm start` to run the project
+8. for testing components, you can run: `npm run test`. 
 
 ## Authors
 
