@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`My Profile component Check My Missions and My Rockets are available 1`] = `
+<h1>
+  My Missions
+</h1>
+`;
+
+exports[`My Profile component Check My Missions and My Rockets are available 2`] = `
+<h1>
+  My Rockets
+</h1>
+`;

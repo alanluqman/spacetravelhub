@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid #868686;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: #d3d3d3;
+}

@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navigation-holder {
+  border-bottom: 1px solid gainsboro;
+}
+
+.nav-container {
+  width: 100%;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  padding: 0 15px;
+  text-decoration: none;
+  color: rgb(20, 129, 255);
+}
+
+.logo-holder {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px;
+  color: rgb(77, 77, 77);
+  font-family: 'Lucida Sans', sans-serif;
+}
+
+.logo {
+  width: 50px;
+}
+
+.my-profile {
+  border-left: 1px solid gainsboro;
+}
+
+@media screen and (min-width: 500px) {
+  .nav-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+}

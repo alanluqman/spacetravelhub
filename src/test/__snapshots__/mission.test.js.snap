@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions page component Check if table of missions available 1`] = `
+<th
+  style="width: 50%;"
+>
+  Description
+</th>
+`;
+
+exports[`Missions page component Should Active Member badge available 1`] = `
+Array [
+  <span
+    style="background-color: rgb(0, 163, 136); color: white; padding: 5px; border-radius: 5px;"
+  >
+    Active Member
+  </span>,
+]
+`;
+
+exports[`Missions page component Should Leave Mission button available 1`] = `
+Array [
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #f00; color: rgb(255, 0, 0); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Leave Mission
+  </button>,
+]
+`;
+
+exports[`Missions page component Should NOT A MEMBER badge available 1`] = `
+Array [
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+  <span
+    style="background-color: rgb(83, 83, 83); color: white; padding: 5px; border-radius: 5px;"
+  >
+    NOT A MEMBER
+  </span>,
+]
+`;
+
+exports[`Missions page component Should join mission button available 1`] = `
+Array [
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+  <button
+    style="background-color: transparent; border: 1px solid; border-color: #535353; color: rgb(83, 83, 83); padding: 5px; border-radius: 5px; cursor: pointer;"
+    type="button"
+  >
+    Join Mission
+  </button>,
+]
+`;
